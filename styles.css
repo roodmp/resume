@@ -19,7 +19,7 @@ p {
 
 h1 {
   font-size: 30px;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 h2 {
@@ -28,11 +28,6 @@ h2 {
 
 h3 {
   font-size: 20px;
-}
-
-#subtitle {
-  font-weight: bolder;
-  color: gray;
 }
 
 .column-list {
@@ -50,4 +45,16 @@ h3 {
 
 .column:last-child {
   padding-right: 0;
+}
+
+#job1 {
+  color: #0000000;
+}
+
+#job2 {
+  color: #333333;
+}
+
+#job3 {
+  color: #666666;
 }
