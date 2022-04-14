@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  padding: 20%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 p {
@@ -9,6 +10,7 @@ p {
 
 h1 {
   font-size: 30px;
+  font-weight: 900;
 }
 
 h2 {
