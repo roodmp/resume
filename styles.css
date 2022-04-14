@@ -5,6 +5,32 @@
   }
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.button {
+  font-size: 15px;
+  transition-duration: 0.4s;
+  border: 2px solid gray;
+  padding: 10px 24px;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+#theme {
+  /* border-radius: 5px; */
+  /* color: black; */
+}
+
 .header {
   margin: 0 auto;
   text-align: center;
@@ -17,7 +43,11 @@
 
 a {
   text-decoration: none;
-  color: #000000;
+}
+
+a:visited {
+  text-decoration: none
+  color: white
 }
 
 body {

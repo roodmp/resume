@@ -12,6 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
 </head>
 
+<div>
+    <button id="theme" class="button" onclick="darkMode()">Darkmode</button>
+</div>
+
 <header class="header">
     <h1>Bio</h1>
     <h1>Contact</h1>
@@ -96,6 +100,13 @@
     <h3><strong>Navy and Marine Corps Achievement Medal</strong> | <em>1 April 2016</em></h3>
     <p>Awarded in recognition of duty while maintaining the billet of Assistant Data Network Chief by providing users enhanced capabilities allowing the battalion to operate at maximum efficiency. Provided critical communications support to an amphibious landing exercise in support of Operation Inherent Resolve.</p>
 </div>
+
+<script>
+    function darkMode() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+</script>
 
 </body>
 </html>
