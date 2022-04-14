@@ -30,6 +30,10 @@ h3 {
   font-size: 20px;
 }
 
+#me {
+  color: #2685A2;
+}
+
 .column-list {
   display: flex;
   justify-content: space-between;
