@@ -1,5 +1,11 @@
+@media screen and (max-width: 400px) {
+  body {
+    margin: 10px;
+  }
+}
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   /* margin-left: 10%;
   margin-right: 10%; */
   max-width: 850px;
@@ -44,4 +50,3 @@ h3 {
 .column:last-child {
   padding-right: 0;
 }
-
